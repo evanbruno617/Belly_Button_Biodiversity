@@ -7,13 +7,15 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Bellybutton Biodiversity</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
 </head>
 
 <body>
 
   <div class="container">
     <div class="row">
-      <div class="col-md-12 jumbotron text-center">
+      <div class="col-md-12 jumbotron text-center", style="background-color:antiquewhite;">
+        <image src = "https://www.cedars-sinai.org/content/dam/cedars-sinai/blog/2020/06/viruses-bacteria-fungi.jpg"></image>
         <h1>Belly Button Biodiversity Dashboard</h1>
         <p>Use the interactive charts below to explore the dataset</p>
       </div>
@@ -34,21 +36,24 @@
       </div>
       <div class="col-md-5">
         <div id="bar"></div>
+        <p> This chart depicts the top 10 bacterias found in the belly button according ot how many samples of each were found. The bacteria ID is on the yaxis and hoverin gover the bar displays the name of the bacteria. The chart shows how many samples of each bacteria was found</p>
       </div>
       <div class="col-md-5">
         <div id="gauge"></div>
+        <p>This chart shows how many times the subject has washed their belly button</p>
       </div>
     </div>
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-18">
         <div id="bubble"></div>
+        <p>This chart shows all of the bacteria present from the subject as well as the sample size for each</p>
       </div>
     </div>
   </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script src="plot.js"></script>
+  <script src="BellyButton_bar_chart_starter_code.js"></script>
 
 </body>
 
